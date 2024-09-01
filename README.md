@@ -1,6 +1,12 @@
-# Wizardry
+# Wizardry Continous
 [![Wizardry Curse Stats](http://cf.way2muchnoise.eu/full_278155_downloads.svg)](https://minecraft.curseforge.com/projects/wizardry-mod)
 [![Build Status](https://travis-ci.org/TeamWizardry/Wizardry.svg?branch=master)](https://travis-ci.org/TeamWizardry/Wizardry)
+
+## Fork
+
+This fork is first and foremost made to make the mod work with Forgelin/LibrarianLib Continous. Mod has animating problems where it crashes because of using different primitve type to change an any type which ends up with crash if the value isn't that primitive type. I do find this issue as an issue of Wizardry because values type is handled by the mod that uses LibrarianLib and it needs shitty workarounds to make LibrarianLib actually work without forking this mod.
+
+## Default Description
 
 Power is everything. It is what has driven you to learn the craft of wizardry; what has driven you to shun the limited teachings of Botanists, Thaumaturges and their ilk to create your own spells. You are only just now taking the first steps of this journey by studying this book you hold in your hands but, with dedication, you can become the master of these arts and break the chains on magic.
 
