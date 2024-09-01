@@ -1,0 +1,15 @@
+repositories {
+    maven { url = "https://maven.cleanroommc.com" }
+    maven { url = "https://cursemaven.com" }
+    maven { url = "https://maven.tterrag.com/" }
+    mavenCentral()
+}
+
+dependencies {
+    implementation rfg.deobf("mezz:jei:4.25.5")
+    runtimeOnly "team.chisel.ctm:CTM:$ctm_version"
+    implementation rfg.deobf('curse.maven:baubles-227083:2518667')
+
+    implementation 'io.github.chaosunity.forgelin:Forgelin-Continuous:2.0.10.0'
+    implementation rfg.deobf('com.teamwizardry.librarianlib:LibrarianLib-Continuous:4.22-2.0')
+}
